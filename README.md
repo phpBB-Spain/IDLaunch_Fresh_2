@@ -23,7 +23,7 @@ Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "
 [Tema Oficial del estilo (Ingles)](https://www.phpbb.com/community/viewtopic.php?f=531&t=2314506) - 
 [Soporte Oficial del estilo (Ingles)](https://www.phpbb.com/customise/db/style/idlaunch_fresh_2/support)
 
-## Algunas capturas
+## Algunas capturas (3.1 Capturas)
 ![phpBB Spain](http://www.phpbb-es.com/archivos/IDLaunch_Fresh_new.png)
 ![phpBB Spain](http://www.phpbb-es.com/archivos/IDLaunch_Fresh_new2.png)
 ![phpBB Spain](http://www.phpbb-es.com/archivos/IDLaunch_Fresh_new3.png)
