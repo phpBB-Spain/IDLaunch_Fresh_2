@@ -75,7 +75,13 @@
 .logo {
 	float: none;
 	width: auto;
-	padding: 10px 13px 0 10px;
+	padding: 2px 1px 0 2px;
+}
+
+.site_logo {
+	display: inline-block;
+	width: 226px;
+	height: 54px;
 }
 
 .logo:hover {
@@ -264,7 +270,14 @@ li.row {
 	color: #333333;
 }
 
+/* Logo IDLaunch Fresh */
+
+.site_logo {
+	background-image: url("./images/site_logo.png");
+}
+
 /* Forum icons & Topic icons */
+
 .global_read													{ background-image: url("./images/announce_read.gif"); }
 .global_read_mine												{ background-image: url("./images/announce_read_mine.gif"); }
 .global_read_locked												{ background-image: url("./images/announce_read_locked.gif"); }
