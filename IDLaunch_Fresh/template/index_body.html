@@ -40,13 +40,17 @@
 		<!-- IF U_VIEWONLINE --><h3><a href="{U_VIEWONLINE}">{L_WHO_IS_ONLINE}</a></h3><!-- ELSE --><h3>{L_WHO_IS_ONLINE}</h3><!-- ENDIF -->
 		<p>
 			<!-- EVENT index_body_block_online_prepend -->
-			<i class="fa fa-sign-in"></i> {TOTAL_USERS_ONLINE} ({L_ONLINE_EXPLAIN})<br /><i class="fa fa-tachometer"></i> {RECORD_USERS}<br />
-			<br /><i class="fa fa-group"></i> {LOGGED_IN_USER_LIST}
-			<!-- IF LEGEND --><br /><em><i class="fa fa-star"></i> {L_LEGEND}{L_COLON} {LEGEND}</em><!-- ENDIF -->
+			<i class="fa fa-sign-in"></i> {TOTAL_USERS_ONLINE} ({L_ONLINE_EXPLAIN})<br /><i class="fa fa-tachometer"></i> {RECORD_USERS}<br /> 
+			<!-- IF U_VIEWONLINE -->
+				<br /><i class="fa fa-group"></i> {LOGGED_IN_USER_LIST}
+				<!-- IF LEGEND --><br /><em><i class="fa fa-star"></i> {L_LEGEND}{L_COLON} {LEGEND}</em><!-- ENDIF -->
+			<!-- ENDIF -->
 			<!-- EVENT index_body_block_online_append -->
 		</p>
 	</div>
 <!-- ENDIF -->
+
+<!-- EVENT index_body_birthday_block_before -->
 
 <!-- IF S_DISPLAY_BIRTHDAY_LIST -->
 	<div class="stat-block birthday-list">
