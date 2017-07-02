@@ -78,12 +78,6 @@
 	padding: 2px 1px 0 2px;
 }
 
-.site_logo {
-	display: inline-block;
-	width: 226px;
-	height: 54px;
-}
-
 .logo:hover {
 	text-decoration: none;
 }
@@ -274,6 +268,11 @@ li.row {
 
 .site_logo {
 	background-image: url("./images/site_logo.png");
+    padding-left: 662px;
+    padding-top: 77px;
+    display: inline-block;
+    width: 1px;
+    height: 5px;
 }
 
 /* Forum icons & Topic icons */

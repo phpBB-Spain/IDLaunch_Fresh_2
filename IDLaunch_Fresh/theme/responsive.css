@@ -64,6 +64,14 @@ body {
 	display: none;
 }
 
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+	.site_logo {
+	background-image: url("./images/site_logo_small.png");
+    padding-left: 226px;
+    padding-top: 54px;
+	}
+}
+
 /* Navigation
 ----------------------------------------*/
 .headerbar + .navbar {
@@ -397,6 +405,12 @@ fieldset.quick-login label[for="autologin"] {
 }
 
 @media only screen and (max-width: 500px), only screen and (max-device-width: 500px) {
+	.site_logo {
+      background-image: url("./images/site_logo_small.png");
+	  padding-left: 226px;
+      padding-top: 54px;
+	}
+
 	dl.details dt, dl.details dd {
 		width: auto;
 		float: none;
