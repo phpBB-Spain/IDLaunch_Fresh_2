@@ -29,12 +29,34 @@
 
 	<div class="copyright">
 		<!-- EVENT overall_footer_copyright_prepend -->
-		{CREDIT_LINE}
-		<br />Style <a href="http://idlaunch.nl/">IDLaunch</a> ported 3.2 by <a href="http://www.phpbb-es.com/">phpBB Spain</a>
-		<!-- IF TRANSLATION_INFO --><br />{TRANSLATION_INFO}<!-- ENDIF -->
+		<p class="footer-row">
+			<span class="footer-copyright">{{ CREDIT_LINE }}<br />Style <a href="http://idlaunch.nl/">IDLaunch</a> ported 3.2 by <a href="http://www.phpbb-es.com/">phpBB Spain</a></span>
+		</p>
+		<!-- IF TRANSLATION_INFO -->
+		<p class="footer-row">
+			<span class="footer-copyright">{{ TRANSLATION_INFO }}</span>
+		</p>
+		<!-- ENDIF -->
 		<!-- EVENT overall_footer_copyright_append -->
-		<!-- IF DEBUG_OUTPUT --><br />{DEBUG_OUTPUT}<!-- ENDIF -->
-		<!-- IF U_ACP --><br /><strong><a href="{U_ACP}">{L_ACP}</a></strong><!-- ENDIF -->
+		<p class="footer-row">
+			<a class="footer-link" href="{{ U_PRIVACY }}" title="{{ lang('PRIVACY_LINK') }}" role="menuitem">
+				<span class="footer-link-text">{{ lang('PRIVACY_LINK') }}</span>
+			</a>
+			|
+			<a class="footer-link" href="{{ U_TERMS_USE }}" title="{{ lang('TERMS_LINK') }}" role="menuitem">
+				<span class="footer-link-text">{{ lang('TERMS_LINK') }}</span>
+			</a>
+		</p>
+		<!-- IF DEBUG_OUTPUT -->
+		<p class="footer-row">
+			<span class="footer-info">{{ DEBUG_OUTPUT }}</span>
+		</p>
+		<!-- ENDIF -->
+		<!-- IF U_ACP -->
+		<p class="footer-row">
+			<a class="footer-link text-strong" href="{{ U_ACP }}">{{ lang('ACP') }}</a>
+		</p>
+		<!-- ENDIF -->
 	</div>
 </div>
 
@@ -65,6 +87,7 @@
 <!-- IF S_COOKIE_NOTICE -->
 	<script src="{T_ASSETS_PATH}/cookieconsent/cookieconsent.min.js?assets_version={T_ASSETS_VERSION}"></script>
 	<script>
+		if (typeof window.cookieconsent === "object") {
 		window.addEventListener("load", function(){
 			window.cookieconsent.initialise({
 				"palette": {
@@ -80,9 +103,11 @@
 					"message": "{LA_COOKIE_CONSENT_MSG}",
 					"dismiss": "{LA_COOKIE_CONSENT_OK}",
 					"link": "{LA_COOKIE_CONSENT_INFO}",
-					"href": "{LA_COOKIE_CONSENT_HREF}"
+						"href": "{UA_PRIVACY}"
+					}
+				});
+			});
 				}
-			})});
 	</script>
 <!-- ENDIF -->
 

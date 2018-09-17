@@ -269,7 +269,7 @@ li.row {
 .site_logo {
 	background-image: url("./images/site_logo.png");
     padding-left: 662px;
-    padding-top: 77px;
+    padding-top: 73px;
     display: inline-block;
     width: 1px;
     height: 5px;
@@ -346,3 +346,18 @@ li.row {
 	background-color: #dcdcdc;
 	background-image: url("./images/bg_list.gif");
 }
+
+ /* Miscellaneous styles
+ ---------------------------------------- */
+ .copyright {
+	font-size: 10px;
+ 	text-align: center;
+	padding: 10px;
+}
+
+.footer-row {
+	font-size: 10px;
+	line-height: 1.8;
+	margin: 0;
+}
+ 
