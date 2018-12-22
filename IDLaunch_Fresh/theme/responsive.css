@@ -401,6 +401,7 @@ fieldset.quick-login label[for="autologin"] {
 .column1, .column2, .left-box.profile-details {
 	float: none;
 	width: auto;
+	clear: both;
 }
 
 @media only screen and (max-width: 500px), only screen and (max-device-width: 500px) {
