@@ -29,7 +29,7 @@ Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "
 ![phpBB Spain](http://www.phpbb-es.com/archivos/IDLaunch_Fresh_new2.png)
 ![phpBB Spain](http://www.phpbb-es.com/archivos/IDLaunch_Fresh_new3.png)
 
-## [Demo Online - IDLaunch Fresh](http://www.phpbb-es.com/IDLaunch/)
+## [Demo Online - IDLaunch Fresh](https://www.phpbb-es.com/styles/demo/#idlaunch_fresh)
 
 ## License
 [GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
@@ -37,6 +37,6 @@ Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "
 ## Autor
 [FreakyBlue](https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=680545)
 
-Ported phpBB 3.1.x - 3.2.x versions by ThE KuKa (Raúl Arroyo Monzo) - [phpBB Spain](http://www.phpbb-es.com)
+Ported phpBB 3.1.x - 3.2.x versions by ThE KuKa (Raúl Arroyo Monzo) - [phpBB Spain](https://www.phpbb-es.com)
 
-![phpBB Spain](http://www.phpbb-es.com/images/logo_es.png) 
+![phpBB Spain](https://www.phpbb-es.com/images/logo_new_small.png) 
