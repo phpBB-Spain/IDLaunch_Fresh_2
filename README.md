@@ -35,3 +35,5 @@ Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "
 Ported phpBB 3.1.x - 3.2.x - 3.3.x versions by **ThE KuKa (Raúl Arroyo Monzo)**
 
 ## © 2003 / 2020 [phpBB España](https://www.phpbb-es.com)
+
+![phpBB Spain](http://www.phpbb-es.com/images/logo_new_small.png) 
